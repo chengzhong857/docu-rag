@@ -1,0 +1,33 @@
+{"q": "过拟合和欠拟合应该怎么区分？", "gold_source": "01-机器学习基础.md", "keywords": ["训练集", "验证损失"], "type": "fact"}
+{"q": "K 折交叉验证里的 K 一般取值多少？", "gold_source": "01-机器学习基础.md", "keywords": ["K 通常取 5 或 10", "取 5 或 10"], "type": "fact"}
+{"q": "L1 正则化和 L2 正则化有什么区别？", "gold_source": "01-机器学习基础.md", "keywords": ["特征选择", "恰好为零"], "type": "compare"}
+{"q": "时间序列数据为什么不能随机划分训练集和测试集？", "gold_source": "01-机器学习基础.md", "keywords": ["未来信息", "必须按时间切分"], "type": "reasoning"}
+{"q": "随机森林是靠什么机制降低方差的？", "gold_source": "01-机器学习基础.md", "keywords": ["Bagging"], "type": "fact"}
+{"q": "类别不平衡的时候应该用哪种交叉验证方式？", "gold_source": "01-机器学习基础.md", "keywords": ["分层", "Stratified"], "type": "fact"}
+{"q": "梯度消失是怎么产生的，有哪些解决办法？", "gold_source": "02-深度学习与神经网络.md", "keywords": ["Sigmoid", "梯度裁剪"], "type": "reasoning"}
+{"q": "BatchNorm 和 LayerNorm 的核心差别是什么？", "gold_source": "02-深度学习与神经网络.md", "keywords": ["不依赖批次", "依赖批次统计量"], "type": "compare"}
+{"q": "Adam 优化器常用的默认学习率是多少？", "gold_source": "02-深度学习与神经网络.md", "keywords": ["1e-3"], "type": "fact"}
+{"q": "残差连接的计算形式是什么？", "gold_source": "02-深度学习与神经网络.md", "keywords": ["F(x) + x"], "type": "fact"}
+{"q": "训练时损失突然变成 NaN 应该怎么排查？", "gold_source": "02-深度学习与神经网络.md", "keywords": ["梯度裁剪", "NaN"], "type": "reasoning"}
+{"q": "缩放点积注意力为什么要除以根号 d_k？", "gold_source": "03-Transformer与注意力机制.md", "keywords": ["sqrt(d_k)", "饱和区"], "type": "reasoning"}
+{"q": "自注意力的时间和显存复杂度是多少？", "gold_source": "03-Transformer与注意力机制.md", "keywords": ["O(n^2"], "type": "fact"}
+{"q": "RoPE 位置编码的原理是什么？", "gold_source": "03-Transformer与注意力机制.md", "keywords": ["旋转矩阵", "相对位置"], "type": "reasoning"}
+{"q": "LoRA 微调能把可训练参数降到什么程度？", "gold_source": "03-Transformer与注意力机制.md", "keywords": ["1%"], "type": "fact"}
+{"q": "FlashAttention 为什么能省显存？", "gold_source": "03-Transformer与注意力机制.md", "keywords": ["在线 softmax", "分块计算"], "type": "reasoning"}
+{"q": "RAG 相比微调有哪些优势？", "gold_source": "04-检索增强生成RAG.md", "keywords": ["知识更新", "溯源"], "type": "compare"}
+{"q": "中文文档做 RAG 时每块切多少字比较合适？", "gold_source": "04-检索增强生成RAG.md", "keywords": ["300 到 500"], "type": "fact"}
+{"q": "RRF 融合公式里的常量 k 通常取多少？", "gold_source": "04-检索增强生成RAG.md", "keywords": ["60"], "type": "fact"}
+{"q": "重排为什么用交叉编码器而不用双塔结构？", "gold_source": "04-检索增强生成RAG.md", "keywords": ["细粒度交互", "无法预先计算"], "type": "reasoning"}
+{"q": "RAG 检索侧有哪些常用评估指标？", "gold_source": "04-检索增强生成RAG.md", "keywords": ["Recall@k", "MRR"], "type": "fact"}
+{"q": "怎么降低大模型在 RAG 里的幻觉？", "gold_source": "04-检索增强生成RAG.md", "keywords": ["拒答", "引用"], "type": "reasoning"}
+{"q": "向量做 L2 归一化之后内积等价于什么？", "gold_source": "05-向量检索与相似度计算.md", "keywords": ["余弦相似度"], "type": "fact"}
+{"q": "十万条以内的数据用哪种 FAISS 索引比较合适？", "gold_source": "05-向量检索与相似度计算.md", "keywords": ["Flat"], "type": "fact"}
+{"q": "HNSW 索引有什么缺点？", "gold_source": "05-向量检索与相似度计算.md", "keywords": ["不支持删除", "内存占用大"], "type": "fact"}
+{"q": "BGE 中文模型建议给查询加什么前缀？", "gold_source": "05-向量检索与相似度计算.md", "keywords": ["为这个句子生成表示以用于检索相关文章"], "type": "fact"}
+{"q": "bge-small-zh 的向量维度是多少？", "gold_source": "05-向量检索与相似度计算.md", "keywords": ["512"], "type": "fact"}
+{"q": "AUC 的准确含义是什么？", "gold_source": "06-模型评估指标.md", "keywords": ["随机取一个正样本"], "type": "reasoning"}
+{"q": "宏平均和微平均有什么区别？", "gold_source": "06-模型评估指标.md", "keywords": ["小类", "大类"], "type": "compare"}
+{"q": "MRR 是怎么计算的？", "gold_source": "06-模型评估指标.md", "keywords": ["倒数"], "type": "fact"}
+{"q": "山东理工大学 2026 年的录取分数线是多少？", "gold_source": null, "keywords": [], "type": "unanswerable"}
+{"q": "2026 年世界杯的冠军是哪支球队？", "gold_source": null, "keywords": [], "type": "unanswerable"}
+{"q": "作者本人的手机号是多少？", "gold_source": null, "keywords": [], "type": "unanswerable"}
